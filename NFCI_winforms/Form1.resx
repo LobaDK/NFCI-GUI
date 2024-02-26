@@ -1,4 +1,64 @@
-﻿<root>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -58,80 +118,80 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnSelectFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 44</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnSelectFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 27</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnSelectFile.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="btnSelectFile.Text" xml:space="preserve">
     <value>Select video</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;btnSelectFile.Name" xml:space="preserve">
+    <value>btnSelectFile</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnSelectFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnSelectFile.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnSelectFile.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="chkDisableAudio.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chkDisableAudio.Location" type="System.Drawing.Point, System.Drawing">
     <value>137, 49</value>
   </data>
-  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chkDisableAudio.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 19</value>
   </data>
-  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="chkDisableAudio.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="checkBox1.Text" xml:space="preserve">
+  <data name="chkDisableAudio.Text" xml:space="preserve">
     <value>Disable audio</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
-    <value>checkBox1</value>
+  <data name="&gt;&gt;chkDisableAudio.Name" xml:space="preserve">
+    <value>chkDisableAudio</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;chkDisableAudio.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chkDisableAudio.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;chkDisableAudio.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtFileInput.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtFileInput.Size" type="System.Drawing.Size, System.Drawing">
     <value>256, 23</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtFileInput.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;txtFileInput.Name" xml:space="preserve">
+    <value>txtFileInput</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtFileInput.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtFileInput.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtFileInput.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
   <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
@@ -158,966 +218,543 @@
   <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="button2.Enabled" type="System.Boolean, mscorlib">
+  <data name="btnStart.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
     <value>510, 415</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="btnStart.Text" xml:space="preserve">
     <value>Start</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
+  <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
+    <value>btnStart</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="rdoWebm.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="rdoWebm.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 22</value>
   </data>
-  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rdoWebm.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 19</value>
   </data>
-  <data name="radioButton1.TabIndex" type="System.Int32, mscorlib">
+  <data name="rdoWebm.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="radioButton1.Text" xml:space="preserve">
+  <data name="rdoWebm.Text" xml:space="preserve">
     <value>WebM</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
-    <value>radioButton1</value>
+  <data name="&gt;&gt;rdoWebm.Name" xml:space="preserve">
+    <value>rdoWebm</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
+  <data name="&gt;&gt;rdoWebm.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;rdoWebm.Parent" xml:space="preserve">
+    <value>grpConvertTo</value>
   </data>
-  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;rdoWebm.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="rdoMP4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="rdoMP4.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 47</value>
   </data>
-  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rdoMP4.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 19</value>
   </data>
-  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
+  <data name="rdoMP4.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="radioButton2.Text" xml:space="preserve">
+  <data name="rdoMP4.Text" xml:space="preserve">
     <value>MP4</value>
   </data>
-  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
-    <value>radioButton2</value>
+  <data name="&gt;&gt;rdoMP4.Name" xml:space="preserve">
+    <value>rdoMP4</value>
   </data>
-  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
+  <data name="&gt;&gt;rdoMP4.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;rdoMP4.Parent" xml:space="preserve">
+    <value>grpConvertTo</value>
   </data>
-  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;rdoMP4.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="grpConvertTo.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 77</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="grpConvertTo.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 74</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="grpConvertTo.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
+  <data name="grpConvertTo.Text" xml:space="preserve">
     <value>Convert to:</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;grpConvertTo.Name" xml:space="preserve">
+    <value>grpConvertTo</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;grpConvertTo.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;grpConvertTo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;grpConvertTo.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;radioButton7.Name" xml:space="preserve">
-    <value>radioButton7</value>
+  <data name="cmbVideoCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
   </data>
-  <data name="&gt;&gt;radioButton7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cmbVideoCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
   </data>
-  <data name="&gt;&gt;radioButton7.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="cmbVideoCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;radioButton7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cmbVideoCodec.Name" xml:space="preserve">
+    <value>cmbVideoCodec</value>
+  </data>
+  <data name="&gt;&gt;cmbVideoCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbVideoCodec.Parent" xml:space="preserve">
+    <value>grpVideoCodec</value>
+  </data>
+  <data name="&gt;&gt;cmbVideoCodec.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
-    <value>radioButton4</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Name" xml:space="preserve">
-    <value>radioButton6</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
-    <value>radioButton3</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Name" xml:space="preserve">
-    <value>radioButton5</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="grpVideoCodec.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 77</value>
   </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 104</value>
+  <data name="grpVideoCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 74</value>
   </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="grpVideoCodec.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
+  <data name="grpVideoCodec.Text" xml:space="preserve">
     <value>Video codec:</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;grpVideoCodec.Name" xml:space="preserve">
+    <value>grpVideoCodec</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;grpVideoCodec.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;grpVideoCodec.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;grpVideoCodec.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="radioButton7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="cmbAudioCodec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="radioButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="cmbAudioCodec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 23</value>
   </data>
-  <data name="radioButton7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 74</value>
+  <data name="cmbAudioCodec.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
-  <data name="radioButton7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 19</value>
+  <data name="&gt;&gt;cmbAudioCodec.Name" xml:space="preserve">
+    <value>cmbAudioCodec</value>
   </data>
-  <data name="radioButton7.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;cmbAudioCodec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbAudioCodec.Parent" xml:space="preserve">
+    <value>grpAudioCodec</value>
+  </data>
+  <data name="&gt;&gt;cmbAudioCodec.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="radioButton7.Text" xml:space="preserve">
-    <value>h264_nvenc</value>
-  </data>
-  <data name="radioButton7.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;radioButton7.Name" xml:space="preserve">
-    <value>radioButton7</value>
-  </data>
-  <data name="&gt;&gt;radioButton7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton7.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioButton4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 64</value>
-  </data>
-  <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 19</value>
-  </data>
-  <data name="radioButton4.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="radioButton4.Text" xml:space="preserve">
-    <value>libvpx-vp8</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
-    <value>radioButton4</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="radioButton6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 49</value>
-  </data>
-  <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 19</value>
-  </data>
-  <data name="radioButton6.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radioButton6.Text" xml:space="preserve">
-    <value>libx265</value>
-  </data>
-  <data name="radioButton6.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Name" xml:space="preserve">
-    <value>radioButton6</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="radioButton3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 34</value>
-  </data>
-  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 19</value>
-  </data>
-  <data name="radioButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radioButton3.Text" xml:space="preserve">
-    <value>libvpx-vp9</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
-    <value>radioButton3</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="radioButton5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
-  </data>
-  <data name="radioButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 19</value>
-  </data>
-  <data name="radioButton5.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radioButton5.Text" xml:space="preserve">
-    <value>libx264</value>
-  </data>
-  <data name="radioButton5.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Name" xml:space="preserve">
-    <value>radioButton5</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;radioButton5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;radioButton10.Name" xml:space="preserve">
-    <value>radioButton10</value>
-  </data>
-  <data name="&gt;&gt;radioButton10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton10.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;radioButton10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;radioButton9.Name" xml:space="preserve">
-    <value>radioButton9</value>
-  </data>
-  <data name="&gt;&gt;radioButton9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton9.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;radioButton9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;radioButton8.Name" xml:space="preserve">
-    <value>radioButton8</value>
-  </data>
-  <data name="&gt;&gt;radioButton8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton8.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;radioButton8.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="grpAudioCodec.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 77</value>
   </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="grpAudioCodec.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 74</value>
   </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="grpAudioCodec.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
+  <data name="grpAudioCodec.Text" xml:space="preserve">
     <value>Audio codec:</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;grpAudioCodec.Name" xml:space="preserve">
+    <value>grpAudioCodec</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;grpAudioCodec.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;grpAudioCodec.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;grpAudioCodec.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="radioButton10.AutoSize" type="System.Boolean, mscorlib">
+  <data name="rdoConstantBitrate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 34</value>
-  </data>
-  <data name="radioButton10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 19</value>
-  </data>
-  <data name="radioButton10.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="radioButton10.Text" xml:space="preserve">
-    <value>aac</value>
-  </data>
-  <data name="radioButton10.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;radioButton10.Name" xml:space="preserve">
-    <value>radioButton10</value>
-  </data>
-  <data name="&gt;&gt;radioButton10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton10.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;radioButton10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioButton9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="rdoConstantBitrate.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 47</value>
   </data>
-  <data name="radioButton9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 19</value>
-  </data>
-  <data name="radioButton9.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="radioButton9.Text" xml:space="preserve">
-    <value>libvorbis</value>
-  </data>
-  <data name="&gt;&gt;radioButton9.Name" xml:space="preserve">
-    <value>radioButton9</value>
-  </data>
-  <data name="&gt;&gt;radioButton9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton9.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;radioButton9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="radioButton8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
-  </data>
-  <data name="radioButton8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 19</value>
-  </data>
-  <data name="radioButton8.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="radioButton8.Text" xml:space="preserve">
-    <value>libopus</value>
-  </data>
-  <data name="&gt;&gt;radioButton8.Name" xml:space="preserve">
-    <value>radioButton8</value>
-  </data>
-  <data name="&gt;&gt;radioButton8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton8.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;radioButton8.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;radioButton12.Name" xml:space="preserve">
-    <value>radioButton12</value>
-  </data>
-  <data name="&gt;&gt;radioButton12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton12.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;radioButton12.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;radioButton11.Name" xml:space="preserve">
-    <value>radioButton11</value>
-  </data>
-  <data name="&gt;&gt;radioButton11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton11.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;radioButton11.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 157</value>
-  </data>
-  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 74</value>
-  </data>
-  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>Bitrate mode</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="radioButton12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 47</value>
-  </data>
-  <data name="radioButton12.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rdoConstantBitrate.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 19</value>
   </data>
-  <data name="radioButton12.TabIndex" type="System.Int32, mscorlib">
+  <data name="rdoConstantBitrate.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="radioButton12.Text" xml:space="preserve">
+  <data name="rdoConstantBitrate.Text" xml:space="preserve">
     <value>Constant</value>
   </data>
-  <data name="&gt;&gt;radioButton12.Name" xml:space="preserve">
-    <value>radioButton12</value>
+  <data name="&gt;&gt;rdoConstantBitrate.Name" xml:space="preserve">
+    <value>rdoConstantBitrate</value>
   </data>
-  <data name="&gt;&gt;radioButton12.Type" xml:space="preserve">
+  <data name="&gt;&gt;rdoConstantBitrate.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton12.Parent" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="&gt;&gt;rdoConstantBitrate.Parent" xml:space="preserve">
+    <value>grpBitrateMode</value>
   </data>
-  <data name="&gt;&gt;radioButton12.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;rdoConstantBitrate.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="radioButton11.AutoSize" type="System.Boolean, mscorlib">
+  <data name="rdoVariableBitrate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton11.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="rdoVariableBitrate.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 22</value>
   </data>
-  <data name="radioButton11.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rdoVariableBitrate.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 19</value>
   </data>
-  <data name="radioButton11.TabIndex" type="System.Int32, mscorlib">
+  <data name="rdoVariableBitrate.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="radioButton11.Text" xml:space="preserve">
+  <data name="rdoVariableBitrate.Text" xml:space="preserve">
     <value>Variable</value>
   </data>
-  <data name="&gt;&gt;radioButton11.Name" xml:space="preserve">
-    <value>radioButton11</value>
+  <data name="&gt;&gt;rdoVariableBitrate.Name" xml:space="preserve">
+    <value>rdoVariableBitrate</value>
   </data>
-  <data name="&gt;&gt;radioButton11.Type" xml:space="preserve">
+  <data name="&gt;&gt;rdoVariableBitrate.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton11.Parent" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="&gt;&gt;rdoVariableBitrate.Parent" xml:space="preserve">
+    <value>grpBitrateMode</value>
   </data>
-  <data name="&gt;&gt;radioButton11.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;rdoVariableBitrate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
+  <data name="grpBitrateMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 157</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="grpBitrateMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 74</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="grpBitrateMode.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="grpBitrateMode.Text" xml:space="preserve">
+    <value>Bitrate mode</value>
   </data>
-  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
-    <value>textBox5</value>
+  <data name="&gt;&gt;grpBitrateMode.Name" xml:space="preserve">
+    <value>grpBitrateMode</value>
   </data>
-  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
-    <value>textBox4</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;radioButton15.Name" xml:space="preserve">
-    <value>radioButton15</value>
-  </data>
-  <data name="&gt;&gt;radioButton15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton15.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;radioButton15.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;radioButton14.Name" xml:space="preserve">
-    <value>radioButton14</value>
-  </data>
-  <data name="&gt;&gt;radioButton14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton14.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;radioButton14.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;maskedTextBox1.Name" xml:space="preserve">
-    <value>maskedTextBox1</value>
-  </data>
-  <data name="&gt;&gt;maskedTextBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;maskedTextBox1.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;maskedTextBox1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;radioButton13.Name" xml:space="preserve">
-    <value>radioButton13</value>
-  </data>
-  <data name="&gt;&gt;radioButton13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton13.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;radioButton13.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 187</value>
-  </data>
-  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 121</value>
-  </data>
-  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>Bitrate option</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+  <data name="&gt;&gt;grpBitrateMode.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;grpBitrateMode.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;grpBitrateMode.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
+  <data name="cmbVideoBitrateSuffix.Items" xml:space="preserve">
     <value>M</value>
   </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
+  <data name="cmbVideoBitrateSuffix.Items1" xml:space="preserve">
     <value>K</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cmbVideoBitrateSuffix.Location" type="System.Drawing.Point, System.Drawing">
     <value>87, 20</value>
   </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cmbVideoBitrateSuffix.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 23</value>
   </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="cmbVideoBitrateSuffix.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="comboBox1.Visible" type="System.Boolean, mscorlib">
+  <data name="cmbVideoBitrateSuffix.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
+  <data name="&gt;&gt;cmbVideoBitrateSuffix.Name" xml:space="preserve">
+    <value>cmbVideoBitrateSuffix</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;cmbVideoBitrateSuffix.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;cmbVideoBitrateSuffix.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cmbVideoBitrateSuffix.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 49</value>
+  <data name="txtVideoBitrateInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
   </data>
-  <data name="textBox5.Multiline" type="System.Boolean, mscorlib">
+  <data name="txtVideoBitrateInfo.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtVideoBitrateInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 55</value>
   </data>
-  <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtVideoBitrateInfo.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="textBox5.Text" xml:space="preserve">
+  <data name="txtVideoBitrateInfo.Text" xml:space="preserve">
     <value>Select bitrate for video. Use M or K to specify Megabits or Kilobits respectively</value>
   </data>
-  <data name="textBox5.Visible" type="System.Boolean, mscorlib">
+  <data name="txtVideoBitrateInfo.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
-    <value>textBox5</value>
+  <data name="&gt;&gt;txtVideoBitrateInfo.Name" xml:space="preserve">
+    <value>txtVideoBitrateInfo</value>
   </data>
-  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtVideoBitrateInfo.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;txtVideoBitrateInfo.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtVideoBitrateInfo.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtVideoBitrate.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 20</value>
   </data>
-  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtVideoBitrate.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 23</value>
   </data>
-  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtVideoBitrate.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="textBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtVideoBitrate.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="textBox4.Visible" type="System.Boolean, mscorlib">
+  <data name="txtVideoBitrate.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
-    <value>textBox4</value>
+  <data name="&gt;&gt;txtVideoBitrate.Name" xml:space="preserve">
+    <value>txtVideoBitrate</value>
   </data>
-  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtVideoBitrate.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;txtVideoBitrate.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtVideoBitrate.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="mtxtConstrainedQuality.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 92</value>
   </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mtxtConstrainedQuality.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 16</value>
   </data>
-  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="mtxtConstrainedQuality.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="textBox3.Text" xml:space="preserve">
+  <data name="mtxtConstrainedQuality.Text" xml:space="preserve">
     <value>(Constrained Quality)</value>
   </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
+  <data name="&gt;&gt;mtxtConstrainedQuality.Name" xml:space="preserve">
+    <value>mtxtConstrainedQuality</value>
   </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;mtxtConstrainedQuality.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;mtxtConstrainedQuality.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;mtxtConstrainedQuality.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="mtxtAverageQuality.Location" type="System.Drawing.Point, System.Drawing">
     <value>64, 58</value>
   </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mtxtAverageQuality.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 16</value>
   </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="mtxtAverageQuality.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="textBox2.Text" xml:space="preserve">
+  <data name="mtxtAverageQuality.Text" xml:space="preserve">
     <value>(Average Quality)</value>
   </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
+  <data name="&gt;&gt;mtxtAverageQuality.Name" xml:space="preserve">
+    <value>mtxtAverageQuality</value>
   </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;mtxtAverageQuality.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;mtxtAverageQuality.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;mtxtAverageQuality.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="radioButton15.AutoSize" type="System.Boolean, mscorlib">
+  <data name="rdoCQ.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton15.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="rdoCQ.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 90</value>
   </data>
-  <data name="radioButton15.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rdoCQ.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 19</value>
   </data>
-  <data name="radioButton15.TabIndex" type="System.Int32, mscorlib">
+  <data name="rdoCQ.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="radioButton15.Text" xml:space="preserve">
+  <data name="rdoCQ.Text" xml:space="preserve">
     <value>CQ</value>
   </data>
-  <data name="&gt;&gt;radioButton15.Name" xml:space="preserve">
-    <value>radioButton15</value>
+  <data name="&gt;&gt;rdoCQ.Name" xml:space="preserve">
+    <value>rdoCQ</value>
   </data>
-  <data name="&gt;&gt;radioButton15.Type" xml:space="preserve">
+  <data name="&gt;&gt;rdoCQ.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton15.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;rdoCQ.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;radioButton15.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;rdoCQ.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="radioButton14.AutoSize" type="System.Boolean, mscorlib">
+  <data name="rdoABR.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton14.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="rdoABR.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 56</value>
   </data>
-  <data name="radioButton14.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rdoABR.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 19</value>
   </data>
-  <data name="radioButton14.TabIndex" type="System.Int32, mscorlib">
+  <data name="rdoABR.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="radioButton14.Text" xml:space="preserve">
+  <data name="rdoABR.Text" xml:space="preserve">
     <value>ABR</value>
   </data>
-  <data name="&gt;&gt;radioButton14.Name" xml:space="preserve">
-    <value>radioButton14</value>
+  <data name="&gt;&gt;rdoABR.Name" xml:space="preserve">
+    <value>rdoABR</value>
   </data>
-  <data name="&gt;&gt;radioButton14.Type" xml:space="preserve">
+  <data name="&gt;&gt;rdoABR.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton14.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;rdoABR.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;radioButton14.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;rdoABR.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="maskedTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 27</value>
+  <data name="mtxtConstantQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 22</value>
   </data>
-  <data name="maskedTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mtxtConstantQuality.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 16</value>
   </data>
-  <data name="maskedTextBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="mtxtConstantQuality.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="maskedTextBox1.Text" xml:space="preserve">
+  <data name="mtxtConstantQuality.Text" xml:space="preserve">
     <value>(Constant Quality)</value>
   </data>
-  <data name="&gt;&gt;maskedTextBox1.Name" xml:space="preserve">
-    <value>maskedTextBox1</value>
+  <data name="&gt;&gt;mtxtConstantQuality.Name" xml:space="preserve">
+    <value>mtxtConstantQuality</value>
   </data>
-  <data name="&gt;&gt;maskedTextBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;mtxtConstantQuality.Type" xml:space="preserve">
     <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;maskedTextBox1.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;mtxtConstantQuality.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;maskedTextBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;mtxtConstantQuality.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="radioButton13.AutoSize" type="System.Boolean, mscorlib">
+  <data name="rdoCRF.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton13.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="rdoCRF.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 25</value>
   </data>
-  <data name="radioButton13.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rdoCRF.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 19</value>
   </data>
-  <data name="radioButton13.TabIndex" type="System.Int32, mscorlib">
+  <data name="rdoCRF.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="radioButton13.Text" xml:space="preserve">
+  <data name="rdoCRF.Text" xml:space="preserve">
     <value>CRF</value>
   </data>
-  <data name="&gt;&gt;radioButton13.Name" xml:space="preserve">
-    <value>radioButton13</value>
+  <data name="&gt;&gt;rdoCRF.Name" xml:space="preserve">
+    <value>rdoCRF</value>
   </data>
-  <data name="&gt;&gt;radioButton13.Type" xml:space="preserve">
+  <data name="&gt;&gt;rdoCRF.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton13.Parent" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;rdoCRF.Parent" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
   </data>
-  <data name="&gt;&gt;radioButton13.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;rdoCRF.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="grpVideoBitrateOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 157</value>
+  </data>
+  <data name="grpVideoBitrateOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 121</value>
+  </data>
+  <data name="grpVideoBitrateOption.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="grpVideoBitrateOption.Text" xml:space="preserve">
+    <value>Bitrate option</value>
+  </data>
+  <data name="&gt;&gt;grpVideoBitrateOption.Name" xml:space="preserve">
+    <value>grpVideoBitrateOption</value>
+  </data>
+  <data name="&gt;&gt;grpVideoBitrateOption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVideoBitrateOption.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpVideoBitrateOption.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 47</value>
@@ -1141,60 +778,60 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
-    <value>groupBox6</value>
+    <value>grpAudioBitrate</value>
   </data>
   <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtAudioBitrate.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 18</value>
   </data>
-  <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtAudioBitrate.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 23</value>
   </data>
-  <data name="textBox8.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtAudioBitrate.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="textBox8.Text" xml:space="preserve">
+  <data name="txtAudioBitrate.Text" xml:space="preserve">
     <value>192</value>
   </data>
-  <data name="textBox8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="txtAudioBitrate.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="&gt;&gt;textBox8.Name" xml:space="preserve">
-    <value>textBox8</value>
+  <data name="&gt;&gt;txtAudioBitrate.Name" xml:space="preserve">
+    <value>txtAudioBitrate</value>
   </data>
-  <data name="&gt;&gt;textBox8.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtAudioBitrate.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox8.Parent" xml:space="preserve">
-    <value>groupBox6</value>
+  <data name="&gt;&gt;txtAudioBitrate.Parent" xml:space="preserve">
+    <value>grpAudioBitrate</value>
   </data>
-  <data name="&gt;&gt;textBox8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtAudioBitrate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="grpAudioBitrate.Location" type="System.Drawing.Point, System.Drawing">
     <value>309, 77</value>
   </data>
-  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="grpAudioBitrate.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 83</value>
   </data>
-  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+  <data name="grpAudioBitrate.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="groupBox6.Text" xml:space="preserve">
+  <data name="grpAudioBitrate.Text" xml:space="preserve">
     <value>Audio bitrate</value>
   </data>
-  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
-    <value>groupBox6</value>
+  <data name="&gt;&gt;grpAudioBitrate.Name" xml:space="preserve">
+    <value>grpAudioBitrate</value>
   </data>
-  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+  <data name="&gt;&gt;grpAudioBitrate.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;grpAudioBitrate.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;grpAudioBitrate.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
